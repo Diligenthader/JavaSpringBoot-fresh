@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--三个属性：action表示往哪提交，method：表示提交方式，enctype设置表单的编码格式-->
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        姓名：<input type="text" name="username"><br>
+        年龄：<input type="text" name="age"><br>
+        头像：<input type="file" name="image"><br>
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
